@@ -26,7 +26,7 @@ export const produtos: Produto[] = [
     nome: 'Café Especial da Montanha',
     descricao: 'Nossos cafés são 100% arábica, têm toraa média e mostram notas de caramelo, chocolate e um dulçor inigualável.',
     preco: 32.00,
-    imagem: '/produtos/cafepacote.jpeg',
+    imagem: './produtos/cafepacote.jpeg',
     categoria: 'cafe',
     produtorId: 'produtos-da-rocha',
     destaque: true
@@ -56,7 +56,7 @@ export const produtos: Produto[] = [
     nome: 'Doce de Leite Tradicional - 420g',
     descricao: 'Nosso Doce de Leite é uma criação de familia, cozido em fogo brando, tendo apenas 8% de açucar, aroma de caramelo e textura aveludada.',
     preco: 25.00,
-    imagem: '/produtos/potedoceleite.jpeg',
+    imagem: './produtos/potedoceleite.jpeg',
     categoria: 'doces',
     produtorId: 'produtos-da-rocha',
     destaque: true
