@@ -24,9 +24,9 @@ export const produtos: Produto[] = [
   {
     id: 'cafe-especial-montanha',
     nome: 'Café Especial da Montanha',
-    descricao: 'Café arábica de altitude, torrado artesanalmente. Notas de chocolate e caramelo, acidez equilibrada e aroma intenso.',
+    descricao: 'Nossos cafés são 100% arábica, têm toraa média e mostram notas de caramelo, chocolate e um dulçor inigualável.',
     preco: 32.00,
-    imagem: 'https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imagem: '/produtos/cafepacote.jpeg',
     categoria: 'cafe',
     produtorId: 'produtos-da-rocha',
     destaque: true
@@ -39,7 +39,7 @@ export const produtos: Produto[] = [
     imagem: 'https://images.pexels.com/photos/7937473/pexels-photo-7937473.jpeg?auto=compress&cs=tinysrgb&w=800',
     categoria: 'geleias',
     produtorId: 'emporio-serra-verde',
-    destaque: true
+    destaque: false
   },
   {
     id: 'cerveja-ipa-artesanal',
@@ -53,13 +53,13 @@ export const produtos: Produto[] = [
   },
   {
     id: 'doce-leite-tradicional',
-    nome: 'Doce de Leite Tradicional',
-    descricao: 'Doce de leite cremoso, feito no tacho de cobre seguindo receita tradicional. Sabor intenso e textura aveludada.',
-    preco: 22.00,
-    imagem: 'https://images.pexels.com/photos/8969246/pexels-photo-8969246.jpeg?auto=compress&cs=tinysrgb&w=800',
+    nome: 'Doce de Leite Tradicional - 420g',
+    descricao: 'Nosso Doce de Leite é uma criação de familia, cozido em fogo brando, tendo apenas 8% de açucar, aroma de caramelo e textura aveludada.',
+    preco: 25.00,
+    imagem: '/produtos/potedoceleite.jpeg',
     categoria: 'doces',
     produtorId: 'produtos-da-rocha',
-    destaque: false
+    destaque: true
   },
   {
     id: 'linguica-artesanal-calabresa',
